@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">CrossBrowser</th></tr>
+<tr><td><a href="#t0">edgetest</a></td><td class="num">13</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">37,080</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">CrossBrowser</th></tr></tbody><tbody id="t0"><tr><th colspan="4">edgetest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestScripts.Case2</td><td><a href="#m0">valTitle</a></td><td rowspan="1">1755326231582</td><td rowspan="1">7</td></tr><tr class="failedodd"><td rowspan="2">TestScripts.Class5</td><td><a href="#m1">clickPrivacy</a></td><td rowspan="1">1755326253091</td><td rowspan="1">325</td></tr><tr class="failedodd"><td><a href="#m2">clickTerms</a></td><td rowspan="1">1755326253417</td><td rowspan="1">5023</td></tr><tr><th colspan="4">edgetest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">TestScripts.Case1</td><td><a href="#m3">valUIisDisplayed</a></td><td rowspan="1">1755326223416</td><td rowspan="1">84</td></tr><tr class="passedeven"><td><a href="#m4">valUIisEnabled</a></td><td rowspan="1">1755326223502</td><td rowspan="1">52</td></tr><tr class="passedodd"><td rowspan="2">TestScripts.Case2</td><td><a href="#m5">valPlaceholder</a></td><td rowspan="1">1755326231567</td><td rowspan="1">14</td></tr><tr class="passedodd"><td><a href="#m6">valUrlconatins</a></td><td rowspan="1">1755326231591</td><td rowspan="1">5</td></tr><tr class="passedeven"><td rowspan="8">TestScripts.Class3</td><td><a href="#m7">FactorialTestUsingdataProvider</a></td><td rowspan="7">1755326241591</td><td rowspan="7">614</td></tr><tr class="passedeven"><td><a href="#m8">FactorialTestUsingdataProvider</a></td></tr><tr class="passedeven"><td><a href="#m9">FactorialTestUsingdataProvider</a></td></tr><tr class="passedeven"><td><a href="#m10">FactorialTestUsingdataProvider</a></td></tr><tr class="passedeven"><td><a href="#m11">FactorialTestUsingdataProvider</a></td></tr><tr class="passedeven"><td><a href="#m12">FactorialTestUsingdataProvider</a></td></tr><tr class="passedeven"><td><a href="#m13">FactorialTestUsingdataProvider</a></td></tr><tr class="passedeven"><td><a href="#m14">factorialTestExcel</a></td><td rowspan="1">1755326244103</td><td rowspan="1">4714</td></tr><tr class="passedodd"><td rowspan="1">TestScripts.Class4</td><td><a href="#m15">validateNumOfLinks</a></td><td rowspan="1">1755326250657</td><td rowspan="1">590</td></tr></tbody>
+</table>
+<h2>edgetest</h2><h3 id="m0">TestScripts.Case2#valTitle</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Factorial] but found [Factoriall]
+	at TestScripts.Case2.valTitle(Case2.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestScripts.Class5#clickPrivacy</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The link is not matching expected [https://qainterview.pythonanywhere.com/privacy] but found [https://qainterview.pythonanywhere.com/terms]
+	at TestScripts.Class5.clickPrivacy(Class5.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestScripts.Class5#clickTerms</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@href=&quot;/privacy&quot;]&quot;}
+  (Session info: MicrosoftEdge=139.0.3405.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ad38d97f98b94ba63a39ca76a17fa3bd, findElement {value=//*[@href=&quot;/privacy&quot;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 139.0.3405.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52292}, msedge: {msedgedriverVersion: 139.0.3405.102 (7dccc8fa00f..., userDataDir: C:\Users\prasa\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52292/devtoo..., se:cdpVersion: 139.0.3405.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ad38d97f98b94ba63a39ca76a17fa3bd
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at POM.Factorial_Webpg.clickTerms(Factorial_Webpg.java:95)
+	at TestScripts.Class5.clickTerms(Class5.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TestScripts.Case1#valUIisDisplayed</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TestScripts.Case1#valUIisEnabled</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TestScripts.Case2#valPlaceholder</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">TestScripts.Case2#valUrlconatins</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">TestScripts.Class3#FactorialTestUsingdataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>7</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">TestScripts.Class3#FactorialTestUsingdataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>4</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">TestScripts.Class3#FactorialTestUsingdataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>10</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">TestScripts.Class3#FactorialTestUsingdataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>6</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">TestScripts.Class3#FactorialTestUsingdataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>8</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">TestScripts.Class3#FactorialTestUsingdataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>5</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">TestScripts.Class3#FactorialTestUsingdataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>9</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">TestScripts.Class3#factorialTestExcel</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">TestScripts.Class4#validateNumOfLinks</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

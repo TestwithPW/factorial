@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-CrossBrowser" class="navigator-link">
+              <span class="suite-name border-failed">CrossBrowser</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-CrossBrowser" class="navigator-link ">
+                    <span>D:\New Eclipse\GSIT_Fa_WebAuto\CrossBwsr.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-CrossBrowser" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-CrossBrowser" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-CrossBrowser" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-CrossBrowser" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-CrossBrowser" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-CrossBrowser" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods, 3 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-CrossBrowser" class="hide-methods failed suite-CrossBrowser"> (hide)</a> <!-- hide-methods failed suite-CrossBrowser -->
+                      <a href="#" panel-name="suite-CrossBrowser" class="show-methods failed suite-CrossBrowser"> (show)</a> <!-- show-methods failed suite-CrossBrowser -->
+                    </span>
+                    <div class="method-list-content failed suite-CrossBrowser">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="TestScripts.Class5" class="method navigator-link" hash-for-method="clickPrivacy">clickPrivacy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="TestScripts.Class5" class="method navigator-link" hash-for-method="clickTerms">clickTerms</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="TestScripts.Case2" class="method navigator-link" hash-for-method="valTitle">valTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-CrossBrowser -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-CrossBrowser" class="hide-methods passed suite-CrossBrowser"> (hide)</a> <!-- hide-methods passed suite-CrossBrowser -->
+                      <a href="#" panel-name="suite-CrossBrowser" class="show-methods passed suite-CrossBrowser"> (show)</a> <!-- show-methods passed suite-CrossBrowser -->
+                    </span>
+                    <div class="method-list-content passed suite-CrossBrowser">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="TestScripts.Class3" class="method navigator-link" hash-for-method="FactorialTestUsingdataProvider(7)">FactorialTestUsingdataProvider(7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="TestScripts.Class3" class="method navigator-link" hash-for-method="FactorialTestUsingdataProvider(4)">FactorialTestUsingdataProvider(4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="TestScripts.Class3" class="method navigator-link" hash-for-method="FactorialTestUsingdataProvider(10)">FactorialTestUsingdataProvider(10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="TestScripts.Class3" class="method navigator-link" hash-for-method="FactorialTestUsingdataProvider(6)">FactorialTestUsingdataProvider(6)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="TestScripts.Class3" class="method navigator-link" hash-for-method="FactorialTestUsingdataProvider(8)">FactorialTestUsingdataProvider(8)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="TestScripts.Class3" class="method navigator-link" hash-for-method="FactorialTestUsingdataProvider(5)">FactorialTestUsingdataProvider(5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="TestScripts.Class3" class="method navigator-link" hash-for-method="FactorialTestUsingdataProvider(9)">FactorialTestUsingdataProvider(9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="TestScripts.Class3" class="method navigator-link" hash-for-method="factorialTestExcel">factorialTestExcel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="TestScripts.Case2" class="method navigator-link" hash-for-method="valPlaceholder">valPlaceholder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="TestScripts.Case1" class="method navigator-link" hash-for-method="valUIisDisplayed">valUIisDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="TestScripts.Case1" class="method navigator-link" hash-for-method="valUIisEnabled">valUIisEnabled</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="TestScripts.Case2" class="method navigator-link" hash-for-method="valUrlconatins">valUrlconatins</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="TestScripts.Class4" class="method navigator-link" hash-for-method="validateNumOfLinks">validateNumOfLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-CrossBrowser -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-CrossBrowser" class="panel CrossBrowser">
+          <div class="suite-CrossBrowser-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestScripts.Case2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="valTitle">
+                  </a> <!-- valTitle -->
+                  <span class="method-name">valTitle</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Factorial] but found [Factoriall]
+	at TestScripts.Case2.valTitle(Case2.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowser-class-failed -->
+          <div class="suite-CrossBrowser-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestScripts.Class5</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickPrivacy">
+                  </a> <!-- clickPrivacy -->
+                  <span class="method-name">clickPrivacy</span>
+                  <div class="stack-trace">java.lang.AssertionError: The link is not matching expected [https://qainterview.pythonanywhere.com/privacy] but found [https://qainterview.pythonanywhere.com/terms]
+	at TestScripts.Class5.clickPrivacy(Class5.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickTerms">
+                  </a> <!-- clickTerms -->
+                  <span class="method-name">clickTerms</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@href=&quot;/privacy&quot;]&quot;}
+  (Session info: MicrosoftEdge=139.0.3405.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ad38d97f98b94ba63a39ca76a17fa3bd, findElement {value=//*[@href=&quot;/privacy&quot;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 139.0.3405.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52292}, msedge: {msedgedriverVersion: 139.0.3405.102 (7dccc8fa00f..., userDataDir: C:\Users\prasa\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52292/devtoo..., se:cdpVersion: 139.0.3405.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ad38d97f98b94ba63a39ca76a17fa3bd
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at POM.Factorial_Webpg.clickTerms(Factorial_Webpg.java:95)
+	at TestScripts.Class5.clickTerms(Class5.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowser-class-failed -->
+          <div class="suite-CrossBrowser-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestScripts.Class3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FactorialTestUsingdataProvider(7)">
+                  </a> <!-- FactorialTestUsingdataProvider(7) -->
+                  <span class="method-name">FactorialTestUsingdataProvider</span>
+                  <span class="parameters">(7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FactorialTestUsingdataProvider(4)">
+                  </a> <!-- FactorialTestUsingdataProvider(4) -->
+                  <span class="method-name">FactorialTestUsingdataProvider</span>
+                  <span class="parameters">(4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FactorialTestUsingdataProvider(10)">
+                  </a> <!-- FactorialTestUsingdataProvider(10) -->
+                  <span class="method-name">FactorialTestUsingdataProvider</span>
+                  <span class="parameters">(10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FactorialTestUsingdataProvider(6)">
+                  </a> <!-- FactorialTestUsingdataProvider(6) -->
+                  <span class="method-name">FactorialTestUsingdataProvider</span>
+                  <span class="parameters">(6)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FactorialTestUsingdataProvider(8)">
+                  </a> <!-- FactorialTestUsingdataProvider(8) -->
+                  <span class="method-name">FactorialTestUsingdataProvider</span>
+                  <span class="parameters">(8)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FactorialTestUsingdataProvider(5)">
+                  </a> <!-- FactorialTestUsingdataProvider(5) -->
+                  <span class="method-name">FactorialTestUsingdataProvider</span>
+                  <span class="parameters">(5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FactorialTestUsingdataProvider(9)">
+                  </a> <!-- FactorialTestUsingdataProvider(9) -->
+                  <span class="method-name">FactorialTestUsingdataProvider</span>
+                  <span class="parameters">(9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="factorialTestExcel">
+                  </a> <!-- factorialTestExcel -->
+                  <span class="method-name">factorialTestExcel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowser-class-passed -->
+          <div class="suite-CrossBrowser-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestScripts.Case2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="valPlaceholder">
+                  </a> <!-- valPlaceholder -->
+                  <span class="method-name">valPlaceholder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="valUrlconatins">
+                  </a> <!-- valUrlconatins -->
+                  <span class="method-name">valUrlconatins</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowser-class-passed -->
+          <div class="suite-CrossBrowser-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestScripts.Class4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNumOfLinks">
+                  </a> <!-- validateNumOfLinks -->
+                  <span class="method-name">validateNumOfLinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowser-class-passed -->
+          <div class="suite-CrossBrowser-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestScripts.Case1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="valUIisDisplayed">
+                  </a> <!-- valUIisDisplayed -->
+                  <span class="method-name">valUIisDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="valUIisEnabled">
+                  </a> <!-- valUIisEnabled -->
+                  <span class="method-name">valUIisEnabled</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowser-class-passed -->
+        </div> <!-- panel CrossBrowser -->
+        <div panel-name="test-xml-CrossBrowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\New Eclipse\GSIT_Fa_WebAuto\CrossBwsr.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;CrossBrowser&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;edgetest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestScripts.Case1&quot;/&gt;
+      &lt;class name=&quot;TestScripts.Case2&quot;/&gt;
+      &lt;class name=&quot;TestScripts.Class3&quot;/&gt;
+      &lt;class name=&quot;TestScripts.Class4&quot;/&gt;
+      &lt;class name=&quot;TestScripts.Class5&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- edgetest --&gt;
+&lt;/suite&gt; &lt;!-- CrossBrowser --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-CrossBrowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for CrossBrowser</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">edgetest (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-CrossBrowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for CrossBrowser</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-CrossBrowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for CrossBrowser</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_CrossBrowser');
+function tableData_CrossBrowser() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'clickTerms')
+data.setCell(0, 2, 'TestScripts.Class5')
+data.setCell(0, 3, 5023);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'factorialTestExcel')
+data.setCell(1, 2, 'TestScripts.Class3')
+data.setCell(1, 3, 4714);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'FactorialTestUsingdataProvider')
+data.setCell(2, 2, 'TestScripts.Class3')
+data.setCell(2, 3, 671);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'FactorialTestUsingdataProvider')
+data.setCell(3, 2, 'TestScripts.Class3')
+data.setCell(3, 3, 654);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'FactorialTestUsingdataProvider')
+data.setCell(4, 2, 'TestScripts.Class3')
+data.setCell(4, 3, 631);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'FactorialTestUsingdataProvider')
+data.setCell(5, 2, 'TestScripts.Class3')
+data.setCell(5, 3, 622);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'FactorialTestUsingdataProvider')
+data.setCell(6, 2, 'TestScripts.Class3')
+data.setCell(6, 3, 618);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'FactorialTestUsingdataProvider')
+data.setCell(7, 2, 'TestScripts.Class3')
+data.setCell(7, 3, 614);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'FactorialTestUsingdataProvider')
+data.setCell(8, 2, 'TestScripts.Class3')
+data.setCell(8, 3, 610);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateNumOfLinks')
+data.setCell(9, 2, 'TestScripts.Class4')
+data.setCell(9, 3, 590);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'clickPrivacy')
+data.setCell(10, 2, 'TestScripts.Class5')
+data.setCell(10, 3, 325);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'valUIisDisplayed')
+data.setCell(11, 2, 'TestScripts.Case1')
+data.setCell(11, 3, 84);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'valUIisEnabled')
+data.setCell(12, 2, 'TestScripts.Case1')
+data.setCell(12, 3, 52);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'valPlaceholder')
+data.setCell(13, 2, 'TestScripts.Case2')
+data.setCell(13, 3, 14);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'valTitle')
+data.setCell(14, 2, 'TestScripts.Case2')
+data.setCell(14, 3, 7);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'valUrlconatins')
+data.setCell(15, 2, 'TestScripts.Case2')
+data.setCell(15, 3, 5);
+window.suiteTableData['CrossBrowser']= { tableData: data, tableDiv: 'times-div-CrossBrowser'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
+              <div id="times-div-CrossBrowser">
+              </div> <!-- times-div-CrossBrowser -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-CrossBrowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for CrossBrowser</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-CrossBrowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-CrossBrowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScripts.Case1</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launch(edge)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">1937 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">valUIisDisplayed</span>
+                <span class="method-start">1948 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">valUIisEnabled</span>
+                <span class="method-start">2034 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">2034 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-class after">
+                <span class="method-name">closeInst</span>
+                <span class="method-start">2087 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScripts.Case2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launch(edge)</span>
+                <span class="method-start">8456 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">10097 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">valPlaceholder</span>
+                <span class="method-start">10099 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">10114 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">valTitle</span>
+                <span class="method-start">10114 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">10123 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">valUrlconatins</span>
+                <span class="method-start">10123 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeInst</span>
+                <span class="method-start">10129 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScripts.Class3</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launch(edge)</span>
+                <span class="method-start">16481 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">18207 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FactorialTestUsingdataProvider(4)</span>
+                <span class="method-start">18208 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">18879 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FactorialTestUsingdataProvider(5)</span>
+                <span class="method-start">18880 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">19511 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FactorialTestUsingdataProvider(6)</span>
+                <span class="method-start">19512 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FactorialTestUsingdataProvider(7)</span>
+                <span class="method-start">20123 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">20123 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FactorialTestUsingdataProvider(8)</span>
+                <span class="method-start">20738 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">20738 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">21360 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FactorialTestUsingdataProvider(9)</span>
+                <span class="method-start">21361 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">21980 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FactorialTestUsingdataProvider(10)</span>
+                <span class="method-start">21980 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">factorialTestExcel</span>
+                <span class="method-start">22635 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">22635 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-class after">
+                <span class="method-name">closeInst</span>
+                <span class="method-start">27350 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScripts.Class4</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launch(edge)</span>
+                <span class="method-start">27523 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">29189 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateNumOfLinks</span>
+                <span class="method-start">29189 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeInst</span>
+                <span class="method-start">29779 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScripts.Class5</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launch(edge)</span>
+                <span class="method-start">29930 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">31623 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clickPrivacy</span>
+                <span class="method-start">31623 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clickTerms</span>
+                <span class="method-start">31949 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">31949 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-class after">
+                <span class="method-name">closeInst</span>
+                <span class="method-start">36973 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
